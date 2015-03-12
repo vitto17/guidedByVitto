@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+@import url("police.css");
+@import url("header.css");
+@import url("menu2.css");
+
+body
+{
+  background: url('../resources/images/fond_jaune.png'); 
+  color: #181818;
+  width: 900px;
+  margin: auto;
+}
+
+section
+{	
+    font-family: Dayrom;   
+}
+
+
+footer{
+ font-family: BallparkWeiner;
+
+}

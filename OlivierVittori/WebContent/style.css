@@ -1,36 +1,61 @@
 @CHARSET "UTF-8";
-body
+@import url("css/body.css");
+
+
+/*header
 {
-	/*background-color : green;*/
-	background-color : rgba(255,0,0,0.5);
-	/* backgroung-image : */	
-	/* backgroung-attachment : fixed*/
-	/* backgroung-repeat : no-repeat*/
-	/* backgroung-position : top right*/
-	/* opacity:0.6*/
+    background: url('resources/images/separateur.png') repeat-x bottom;
 }
 
-h1
+header h1
 {
-	text-align:center;	
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
 }
 
-h2
+#logo, header h1
 {
-	text-align:center;		
+    display: inline-block;
+    margin-bottom: 0px;
 }
 
-h3
+header h2
 {
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}*/
+
+
+/*section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}*/
+
+
+.secret
+{
+	display:none;	
+}
+
+.position
+{
+	position:absolute;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	top:0px;
+	z-index:1;om
 	
 }
-
-.liste
-{
-		
-}
-
 #logo
 {
 	
 }
+
+
+

@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../resources/polices/ballpark.eot');
+    src: url('../resources/polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../resources/polices/ballpark.woff') format('woff'),
+         url('../resources/polices/ballpark.ttf') format('truetype'),
+         url('../resources/polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../resources/polices/dayrom.eot');
+    src: url('../resources/polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../resources/polices/dayrom.woff') format('woff'),
+         url('../resources/polices/dayrom.ttf') format('truetype'),
+         url('../resources/polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

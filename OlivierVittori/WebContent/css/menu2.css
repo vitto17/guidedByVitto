@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+#menuListe, #menuListe ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align:right;
+}
+
+#menuListe li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+
+#menuListe ul li{
+display:inherit;
+border-radius:0;
+}
+
+#menuListe ul li:hover{
+border-radius:0;
+}
+
+#menuListe ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+
+#menuListe ul{
+position:absolute;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+
+#menuListe li:hover ul{
+max-height:12em;
+}
+
+/* background des liens menus */
+#menuListe li:first-child{
+background-color: #65537A;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+}
+#menuListe li:nth-child(2){
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+
+#menuListe li:last-child{
+background-color: #CFFF6A;
+background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+}
+
+/* background des liens sous menus */
+#menuListe li:first-child li{
+background:#2A2333;
+}
+#menuListe li:nth-child(2) li{
+background:#333A40;
+}
+#menuListe li:nth-child(3) li{
+background:#9F391A;
+}
+#menuListe li:last-child li{
+background:#677F35;
+}
+/* background des liens menus et sous menus au survol */
+#menuListe li:first-child:hover, #menuListe li:first-child li:hover{
+background:#65537A;
+}
+#menuListe li:nth-child(2):hover, #menuListeli:nth-child(2) li:hover{
+background:#729EBF;
+}
+#menuListe li:nth-child(3):hover, #menuListeli:nth-child(3) li:hover{
+background:#F6AD1A;
+}
+#menuListe li:last-child:hover, #menuListe li:last-child li:hover{
+background:#CFFF6A;
+}
+/* les a href */
+#menuListe a{
+text-decoration:none;
+display:block;
+padding:8px 45px;
+color:#fff;
+font-family:arial;
+}
+
+#menuListe ul a{
+padding:12px 0px;
+}
+
+#menuListe li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menuListe li:hover a, #menuListe li li:hover a{
+color:#000;
+}
