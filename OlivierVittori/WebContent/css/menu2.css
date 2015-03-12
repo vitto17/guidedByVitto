@@ -94,7 +94,8 @@ font-family:arial;
 }
 
 #menuListe ul a{
-padding:12px 0px;
+padding:8px 0px;
+text-align:center;
 }
 
 #menuListe li:hover li a{
